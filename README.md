@@ -16,4 +16,4 @@ git clone https://github.com/boo50/vim.git && cd vim && mv vimrc ~/.vimrc
 vim
 :PluginInstall
 ```
-done.
+done
