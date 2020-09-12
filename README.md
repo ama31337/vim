@@ -1,17 +1,13 @@
-# vim
-vim config and setup
+# install vim config 
 
-1. setup Vuddle
+1. run script config
 ```
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-```
-
-2. get config
-```
-git clone https://github.com/ama31337/vim.git && cd vim && mv vimrc ~/.vimrc && rm -rf ~/vim
+wget https://raw.githubusercontent.com/ama31337/vim/master/vim.sh
+chmod +x ./vim.sh
+./vim.sh
 ```
 
-3. run vim
+2. run vim
 ```
 vim
 :PluginInstall
