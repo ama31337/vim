@@ -1,10 +1,8 @@
-# install vim config 
+# install vim configs 
 
 1. run script config
 ```
-wget https://raw.githubusercontent.com/ama31337/vim/master/vim.sh
-chmod +x ./vim.sh
-./vim.sh
+curl -L https://raw.githubusercontent.com/ama31337/vim/master/vim.sh | sh
 ```
 
 2. run vim
