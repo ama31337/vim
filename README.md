@@ -1,13 +1,7 @@
 # install vim configs 
 
-1. run script config
+run script config
 ```
-curl -L https://raw.githubusercontent.com/ama31337/vim/master/vim.sh | sh
-```
-
-2. run vim
-```
-vim
-:PluginInstall
+curl -L https://raw.githubusercontent.com/ama31337/vim/master/vim.sh | sh && echo ":PluginInstall" | vim
 ```
 done
